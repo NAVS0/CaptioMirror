@@ -1,5 +1,5 @@
 function getWeather() {
-    const apiKey = 'd89121fd1be5ed21e727db51c8899a54';
+    const apiKey = ' ';
     const city = document.getElementById('city').value;
 
     if (!city) {
@@ -118,7 +118,7 @@ updateManilaTime();
 
   // Function to fetch and display stock prices with error handling
     async function fetchStockPrices() {
-        const apiKey = 'VS1I0QJH7OJVIOA8'; // Replace with your Alpha Vantage API key
+        const apiKey = ' '; // Replace with your Alpha Vantage API key
         const symbols = ['MSFT', 'AAPL', 'GOOGL']; // Stock symbols for Microsoft, Apple, Google
         const stockContainer = document.getElementById('stockContainer');
         const errorContainer = document.getElementById('errorContainer');
